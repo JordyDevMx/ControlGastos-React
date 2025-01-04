@@ -1,4 +1,4 @@
-# DevConferences
+# Control de Gastos
 Repositorio del proyecto JordyDev
 ![cortado](https://github.com/user-attachments/assets/869f1840-587b-48e7-a93d-d74d8d43e520)
 
