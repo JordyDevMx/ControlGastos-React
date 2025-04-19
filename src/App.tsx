@@ -19,11 +19,15 @@ function App() {
 
   return (
     <>
-      <header className="bg-green-600 py-8 max-h-72">
+      <header className="bg-green-600 py-8 max-h-72">        
         <h1 className="uppercase text-center font-black text-4xl text-white">
           Planifica tus Gastos
         </h1>
       </header>
+
+      <div className="flex justify-center">
+        <img className="w-4/12 my-8" src="/logo.svg" alt="Logo" />
+      </div>
 
       <div className="max-w-sm md md:max-w-2xl mx-auto bg-white shadow-lg rounded-lg mt-10 p-10">
         {isValidBudget ? <BudgetTracker/> : <BudgetForm/>}
@@ -38,7 +42,7 @@ function App() {
       )}
 
       <footer className="bg-green-600 p-4 text-center mt-16">
-          <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordyweb.site/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
+          <p className="text-2xl text-white">&copy; {currentYear} <a className="font-black" href="https://jordydev.website/" target="blank" rel="noopener noreferrer">JordyDev</a> | Todos los derechos reservados</p>
       </footer>
     </>
   )
